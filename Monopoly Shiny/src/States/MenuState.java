@@ -1,5 +1,6 @@
 package States;
 
+import Visual.Assets;
 import java.awt.Graphics;
 import monopoly.shiny.Handler;
 
@@ -11,12 +12,12 @@ public class MenuState extends State{
 
     @Override
     public void update() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
     }
 
     @Override
     public void render(Graphics g) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        g.drawImage(Assets.menu, 0, 0, handler.getGameWidth(), handler.getGameHeight(), null);
     }
     
 }

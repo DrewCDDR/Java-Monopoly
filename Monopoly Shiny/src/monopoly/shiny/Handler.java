@@ -5,6 +5,9 @@
  */
 package monopoly.shiny;
 
+import Managers.MouseManager;
+import javax.net.ssl.KeyManager;
+
 /**
  *
  * @author demarchenac
@@ -17,4 +20,15 @@ public class Handler {
         this.game = game;
     }
     
+    public int getGameWidth(){
+        return game.getWidth();
+    }
+    
+    public int getGameHeight(){
+        return game.getHeight();
+    }
+    
+    public MouseManager getGameMouseManager(){
+        return game.getMouseManager();
+    }   
 }

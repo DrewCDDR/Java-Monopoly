@@ -1,5 +1,9 @@
 package monopoly.shiny;
 
+import Managers.MouseManager;
+import States.GameState;
+import States.MenuState;
+import States.State;
 import Visual.Window;
 import java.awt.Graphics;
 import java.awt.image.BufferStrategy;
@@ -18,8 +22,11 @@ public class Game implements Runnable{
     //Visible
     private BufferStrategy bs;
     private Graphics g;
-    //States...
-    //Managers...
+    //States
+    public State menuState;
+    public State gameState;
+    //Managers
+    private MouseManager mouseManager;
     //THE GOD BLESSED HANDLER.
     private Handler handler;
     
@@ -62,6 +69,10 @@ public class Game implements Runnable{
     private void init(){
         display = new Window(title,width,height);
         handler = new Handler(this);
+        
+        menuState = new MenuState(handler);
+        gameState = new GameState(handler);
+        State.setState(menuState);
     }
     public synchronized void start(){
         if(running)return;
@@ -103,5 +114,17 @@ public class Game implements Runnable{
         //end STATE drawing
         bs.show();
         g.dispose();
+    }
+    
+    public MouseManager getMouseManager(){
+        return mouseManager;
+    }
+    
+    public int getWidth(){
+        return width;
+    }
+    
+    public int getHeight(){
+        return height;
     }
 }
