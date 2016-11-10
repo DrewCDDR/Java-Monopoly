@@ -28,10 +28,11 @@ public class UIManager {
     }
     
     public void render(Graphics g){
-        
-        for (UIObject o : objects) {
-            o.render(g);
-        }
+        try{
+            for (UIObject o : objects) {
+                o.render(g);
+            }
+        }catch(Exception e){}
     }
     
     public void onMouseMove(MouseEvent e){
@@ -42,9 +43,11 @@ public class UIManager {
     }
     
     public void onMouseRelease(MouseEvent e){
-        for (UIObject o : objects) {
-            o.onMouseRelease(e);
-        }
+        try{    
+            for (UIObject o : objects) {
+                o.onMouseRelease(e);
+            }
+        }catch(Exception z){}
     }
     
     public void addObject(UIObject o){
@@ -53,6 +56,17 @@ public class UIManager {
     
     public void removeObject(UIObject o){
         objects.remove(o);
+    }
+    
+    public void remove(int i){
+        objects.remove(i);
+    }
+    
+    public void removeAll(){
+        int l = objects.size() -1;
+        for (int i = 0; i < l; i++) {
+            objects.remove(0);
+        }
     }
 
     public Handler getHandler() {

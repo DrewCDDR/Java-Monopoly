@@ -22,8 +22,8 @@ public class Window implements WindowListener, ActionListener{
     private final int width, height;
     private String title;
     
-    JFrame window;
-    Canvas canvas;
+    private JFrame window;
+    private Canvas canvas;
     
     public Window(String title, int width, int height) {
         this.title = title;

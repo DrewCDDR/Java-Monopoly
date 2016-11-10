@@ -4,6 +4,7 @@ import Managers.MouseManager;
 import States.GameState;
 import States.MenuState;
 import States.State;
+import Visual.Assets;
 import Visual.Window;
 import java.awt.Graphics;
 import java.awt.image.BufferStrategy;
@@ -23,8 +24,8 @@ public class Game implements Runnable{
     private BufferStrategy bs;
     private Graphics g;
     //States
-    public State menuState;
-    public State gameState;
+    private MenuState menuState;
+    private GameState gameState;
     //Managers
     private MouseManager mouseManager;
     //THE GOD BLESSED HANDLER.
@@ -34,6 +35,7 @@ public class Game implements Runnable{
         this.title = title;
         this.width = width;
         this.height = height;
+        mouseManager = new MouseManager();
     }
     
     
@@ -69,6 +71,12 @@ public class Game implements Runnable{
     private void init(){
         display = new Window(title,width,height);
         handler = new Handler(this);
+       
+        display.getJFrame().addMouseListener(mouseManager);
+        display.getJFrame().addMouseMotionListener(mouseManager);
+        display.getCanvas().addMouseListener(mouseManager);
+        display.getCanvas().addMouseMotionListener(mouseManager);
+        Assets.init();
         
         menuState = new MenuState(handler);
         gameState = new GameState(handler);
@@ -108,9 +116,9 @@ public class Game implements Runnable{
         //clear window
         g.clearRect(0, 0, width, height);
         //start STATE drawing 
-        /*if (State.getState() != null) {
+        if (State.getState() != null) {
             State.getState().render(g);
-        }*/ 
+        } 
         //end STATE drawing
         bs.show();
         g.dispose();
@@ -126,5 +134,14 @@ public class Game implements Runnable{
     
     public int getHeight(){
         return height;
+    }
+    public Window getGameDisplay (){
+        return display;
+    }
+    public MenuState getMenuState(){
+        return menuState;
+    }
+    public GameState getGameState(){
+        return gameState;
     }
 }

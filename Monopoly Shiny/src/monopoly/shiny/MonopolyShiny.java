@@ -5,7 +5,7 @@ package monopoly.shiny;
  */
 public class MonopolyShiny {
     public static void main(String[] args) {
-        Game g = new Game("Monopoly Shiny!",800,600);
+        Game g = new Game("Monopoly Shiny!",1000,725);
         g.start();
     }    
 }

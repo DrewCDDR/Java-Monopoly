@@ -5,6 +5,8 @@
  */
 package Cards;
 
+import java.awt.Color;
+
 /**
  *
  * @author demarchenac
@@ -21,7 +23,8 @@ public class Property extends Card{
     private int hotelValue;
     private int rent;
     private int propertyValue;
-    private String color;
+    private String colorName;
+    private Color color;
 
     public Property(String type, int id) {
         super(type, id);

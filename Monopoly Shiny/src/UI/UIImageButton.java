@@ -30,7 +30,7 @@ public class UIImageButton extends UIObject{
     public void render(Graphics g) {
         if (overIn) {
             g.drawImage(images[1], (int) x, (int) y, width, height, null);
-            g.drawRect(bounds.x, bounds.y, bounds.width, bounds.height);
+            //g.drawRect(bounds.x, bounds.y, bounds.width, bounds.height);
         }else{
             g.drawImage(images[0], (int) x, (int) y, width, height, null);
         }
