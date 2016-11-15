@@ -1,0 +1,4 @@
+id=6;price=200;rent=25;name=Reading RailRoad;if2=50;if3=100;if4=200;Mortage=100
+id=16;price=200;rent=25;name=Pennsylvania RailRoad;if2=50;if3=100;if4=200;Mortage=100
+id=26;price=200;rent=25;name=B. & O. RailRoad;if2=50;if3=100;if4=200;Mortage=100
+id=36;price=200;rent=25;name=Short Line;if2=50;if3=100;if4=200;Mortage=100

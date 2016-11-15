@@ -1,0 +1,22 @@
+id=2;name=Mediterranean Avenue;Color=brown;Rent=2;1House=10;2Houses=30;3Houses=90;4Houses=160;Hotel=250;Mortage=30;HouseValue=50;HotelValue=50;Price=60
+id=4;name=Baltic Avenue;Color=brown;Rent=4;1House=20;2Houses=60;3Houses=180;4Houses=320;Hotel=450;Mortage=30;HouseValue=50;HotelValue=50;Price=60
+id=7;name=Oriental Avenue;Color=lightBlue;Rent=6;1House=30;2Houses=90;3Houses=270;4Houses=400;Hotel=550;Mortage=50;HouseValue=50;HotelValue=50;Price=100
+id=9;name=Vermont Avenue;Color=lightBlue;Rent=6;1House=30;2Houses=90;3Houses=270;4Houses=400;Hotel=550;Mortage=50;HouseValue=50;HotelValue=50;Price=100
+id=10;name=Connecticut Avenue;Color=lightBlue;Rent=8;1House=40;2Houses=100;3Houses=300;4Houses=450;Hotel=600;Mortage=60;HouseValue=50;HotelValue=50;Price=120
+id=12;name=St. Charles Place;Color=pink;Rent=10;1House=50;2Houses=150;3Houses=450;4Houses=625;Hotel=750;Mortage=70;HouseValue=100;HotelValue=100;Price=140
+id=14;name=States Avenue;Color=pink;Rent=10;1House=50;2Houses=150;3Houses=450;4Houses=625;Hotel=750;Mortage=70;HouseValue=100;HotelValue=100;Price=140
+id=15;name=Virgina Avenue;Color=pink;Rent=12;1House=60;2Houses=180;3Houses=500;4Houses=700;Hotel=900;Mortage=80;HouseValue=100;HotelValue=100;Price=160
+id=17;name=St. James Place;Color=orange;Rent=14;1House=70;2Houses=200;3Houses=550;4Houses=750;Hotel=950;Mortage=90;HouseValue=100;HotelValue=100;Price=180
+id=19;name=Tennessee Avenue;Color=orange;Rent=14;1House=70;2Houses=200;3Houses=550;4Houses=750;Hotel=950;Mortage=90;HouseValue=100;HotelValue=100;Price=180
+id=20;name=New York Avenue;Color=orange;Rent=16;1House=80;2Houses=220;3Houses=600;4Houses=800;Hotel=1000;Mortage=100;HouseValue=100;HotelValue=100;Price=200
+id=22;name=Kentucky Avenue;Color=red;Rent=18;1House=90;2Houses=250;3Houses=700;4Houses=875;Hotel=1050;Mortage=110;HouseValue=150;HotelValue=150;Price=220
+id=24;name=Indiana Avenue;Color=red;Rent=18;1House=90;2Houses=250;3Houses=700;4Houses=875;Hotel=1050;Mortage=110;HouseValue=150;HotelValue=150;Price=220
+id=25;name=Illinois Avenue;Color=red;Rent=20;1House=100;2Houses=300;3Houses=750;4Houses=925;Hotel=1100;Mortage=120;HouseValue=150;HotelValue=150;Price=240
+id=27;name=Atlantic Avenue;Color=yellow;Rent=22;1House=110;2Houses=330;3Houses=800;4Houses=975;Hotel=1150;Mortage=130;HouseValue=150;HotelValue=150;Price=260
+id=28;name=Ventnor Avenue;Color=yellow;Rent=22;1House=110;2Houses=330;3Houses=800;4Houses=975;Hotel=1150;Mortage=130;HouseValue=150;HotelValue=150;Price=260
+id=30;name=Marvin Gardens;Color=yellow;Rent=24;1House=120;2Houses=360;3Houses=850;4Houses=1025;Hotel=1200;Mortage=140;HouseValue=150;HotelValue=150;Price=280
+id=32;name=Pacific Avenue;Color=green;Rent=26;1House=130;2Houses=390;3Houses=900;4Houses=1100;Hotel=1275;Mortage=150;HouseValue=200;HotelValue=200;Price=300
+id=33;name=North California Avenue;Color=green;Rent=26;1House=130;2Houses=390;3Houses=900;4Houses=1100;Hotel=1275;Mortage=150;HouseValue=200;HotelValue=200;Price=300
+id=35;name=Pennsylvania Avenue;Color=green;Rent=28;1House=150;2Houses=450;3Houses=1000;4Houses=1200;Hotel=1400;Mortage=156;HouseValue=200;HotelValue=200;Price=320
+id=38;name=Park Place;Color=darkBlue;Rent=35;1House=175;2Houses=500;3Houses=1100;4Houses=1300;Hotel=1500;Mortage=175;HouseValue=200;HotelValue=200;Price=350
+id=40;name=Boardwalk;Color=darkBlue;Rent=50;1House=200;2Houses=600;3Houses=1400;4Houses=1700;Hotel=2000;Mortage=2000;HouseValue=200;HotelValue=200;Price=400

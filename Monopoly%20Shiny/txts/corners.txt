@@ -1,0 +1,4 @@
+id=1;move=left;name=Go
+id=11;move=up;name=Jail
+id=21;move=right;name=Free Parking
+id=31;move=down;name=Go to jail

@@ -1,0 +1,2 @@
+id=13;name=Electric Company;price=150;mortage=75
+id=29;name=Water Works;price=150;mortage=75
